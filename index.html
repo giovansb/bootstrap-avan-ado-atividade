@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+<!--carrossel-->        
+        <div id="carousel-atividade" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block img-fluid" src="img/flor.jpg" />
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block img-fluid" src="img/gato.jpg" />
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block img-fluid" src="img/por-do-sol.jpg" />
+                </div>
+            </div>
+
+        <!--Botões do carrossel-->
+            <button type="button" data-bs-slide="prev" data-bs-target="#carousel-atividade" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" data-bs-slide="next" data-bs-target="#carousel-atividade" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        <!-- Indicadores do carrossel-->
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#carousel-atividade" data-bs-slide-to="0" type="button"></button>
+                <button data-bs-target="#carousel-atividade" data-bs-slide-to="1" type="button"></button>
+                <button data-bs-target="#carousel-atividade" data-bs-slide-to="3" type="button"></button>
+            </div>
+        </div>
+
+<!--grid-->
+        <div class="row mt-5">
+            <div class=" col-12 col-lg-4 col-md-6 col-sm-12  mt-4">
+                <div class="card text-white bg-danger">
+                    <div class="card-header">Flores</div>
+                    <div class="card-body">
+                        <div class="card-title h5">As flores mais bonitas</div>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-lg-4 col-md-6 col-sm-12  mt-4">
+                <div class="card text-white bg-warning">
+                    <div class="card-header">Gatos</div>
+                    <div class="card-body">
+                        <div class="card-title h5">Os gatos mais fofos</div>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-lg-4 col-md-6 col-sm-12  mt-4">
+                <div class="card text-white bg-info">
+                    <div class="card-header">Pôr do Sol</div>
+                    <div class="card-body">
+                        <div class="card-title h5">Os pores do sol mais lindos</div>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-lg-4 col-md-6 col-sm-12  mt-4">
+                <div class="card">
+                    <div class="card-header">Dúvidas?</div>
+                    <div class="card-body">
+                        <div class="card-title h5">Entre em contato conosco!</div>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!--
+
+-->
